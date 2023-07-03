@@ -1,0 +1,238 @@
+[2023-06-28 10:40:41] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2023-06-28 10:40:43] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2023-06-28 10:40:45] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Unable to read frame header: Incorrect header size {"exception":"[object] (Spiral\\Goridge\\Exception\\HeaderException(code: 0): Unable to read frame header: Incorrect header size at /var/www/html/spark/vendor/spiral/goridge/src/StreamRelay.php:77)
+[stacktrace]
+#0 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Worker.php(58): Spiral\\Goridge\\StreamRelay->waitFrame()
+#1 /var/www/html/spark/vendor/spiral/roadrunner-http/src/HttpWorker.php(50): Spiral\\RoadRunner\\Worker->waitPayload()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-http/src/PSR7Worker.php(62): Spiral\\RoadRunner\\Http\\HttpWorker->waitRequest()
+#3 /var/www/html/spark/vendor/laravel/octane/bin/roadrunner-worker(39): Spiral\\RoadRunner\\Http\\PSR7Worker->waitRequest()
+#4 /var/www/html/spark/vendor/bin/roadrunner-worker(97): include('...')
+#5 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Unable to read frame header: Incorrect header size {"exception":"[object] (Spiral\\Goridge\\Exception\\HeaderException(code: 0): Unable to read frame header: Incorrect header size at /var/www/html/spark/vendor/spiral/goridge/src/StreamRelay.php:77)
+[stacktrace]
+#0 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Worker.php(58): Spiral\\Goridge\\StreamRelay->waitFrame()
+#1 /var/www/html/spark/vendor/spiral/roadrunner-http/src/HttpWorker.php(50): Spiral\\RoadRunner\\Worker->waitPayload()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-http/src/PSR7Worker.php(62): Spiral\\RoadRunner\\Http\\HttpWorker->waitRequest()
+#3 /var/www/html/spark/vendor/laravel/octane/bin/roadrunner-worker(39): Spiral\\RoadRunner\\Http\\PSR7Worker->waitRequest()
+#4 /var/www/html/spark/vendor/bin/roadrunner-worker(97): include('...')
+#5 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Unable to read frame header: Incorrect header size {"exception":"[object] (Spiral\\Goridge\\Exception\\HeaderException(code: 0): Unable to read frame header: Incorrect header size at /var/www/html/spark/vendor/spiral/goridge/src/StreamRelay.php:77)
+[stacktrace]
+#0 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Worker.php(58): Spiral\\Goridge\\StreamRelay->waitFrame()
+#1 /var/www/html/spark/vendor/spiral/roadrunner-http/src/HttpWorker.php(50): Spiral\\RoadRunner\\Worker->waitPayload()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-http/src/PSR7Worker.php(62): Spiral\\RoadRunner\\Http\\HttpWorker->waitRequest()
+#3 /var/www/html/spark/vendor/laravel/octane/bin/roadrunner-worker(39): Spiral\\RoadRunner\\Http\\PSR7Worker->waitRequest()
+#4 /var/www/html/spark/vendor/bin/roadrunner-worker(97): include('...')
+#5 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Unable to read frame header: Incorrect header size {"exception":"[object] (Spiral\\Goridge\\Exception\\HeaderException(code: 0): Unable to read frame header: Incorrect header size at /var/www/html/spark/vendor/spiral/goridge/src/StreamRelay.php:77)
+[stacktrace]
+#0 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Worker.php(58): Spiral\\Goridge\\StreamRelay->waitFrame()
+#1 /var/www/html/spark/vendor/spiral/roadrunner-http/src/HttpWorker.php(50): Spiral\\RoadRunner\\Worker->waitPayload()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-http/src/PSR7Worker.php(62): Spiral\\RoadRunner\\Http\\HttpWorker->waitRequest()
+#3 /var/www/html/spark/vendor/laravel/octane/bin/roadrunner-worker(39): Spiral\\RoadRunner\\Http\\PSR7Worker->waitRequest()
+#4 /var/www/html/spark/vendor/bin/roadrunner-worker(97): include('...')
+#5 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\RoadRunner\Internal\StdoutHandler::Spiral\RoadRunner\Internal\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\Component\HttpFoundation\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\Component\HttpFoundation\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\\RoadRunner\\Internal\\StdoutHandler::Spiral\\RoadRunner\\Internal\\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\\Component\\HttpFoundation\\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\\Component\\HttpFoundation\\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#9 {main}
+  thrown at /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\RoadRunner\Internal\StdoutHandler::Spiral\RoadRunner\Internal\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\Component\HttpFoundation\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\Component\HttpFoundation\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\\RoadRunner\\Internal\\StdoutHandler::Spiral\\RoadRunner\\Internal\\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\\Component\\HttpFoundation\\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\\Component\\HttpFoundation\\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#9 {main}
+  thrown at /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\RoadRunner\Internal\StdoutHandler::Spiral\RoadRunner\Internal\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\Component\HttpFoundation\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\Component\HttpFoundation\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\\RoadRunner\\Internal\\StdoutHandler::Spiral\\RoadRunner\\Internal\\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\\Component\\HttpFoundation\\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\\Component\\HttpFoundation\\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#9 {main}
+  thrown at /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-28 12:11:33] local.ERROR: Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\RoadRunner\Internal\StdoutHandler::Spiral\RoadRunner\Internal\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\Component\HttpFoundation\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\Component\HttpFoundation\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#9 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_put_contents(): Write of 934433 bytes failed with errno=32 Broken pipe in /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73
+Stack trace:
+#0 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php(73): file_put_contents()
+#3 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(410): Spiral\\RoadRunner\\Internal\\StdoutHandler::Spiral\\RoadRunner\\Internal\\{closure}()
+#4 /var/www/html/spark/vendor/symfony/http-foundation/Response.php(423): Symfony\\Component\\HttpFoundation\\Response->sendContent()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Symfony\\Component\\HttpFoundation\\Response->send()
+#6 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#7 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#9 {main}
+  thrown at /var/www/html/spark/vendor/spiral/roadrunner-worker/src/Internal/StdoutHandler.php:73)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-29 05:15:09] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2023-06-29 05:15:12] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2023-06-29 05:15:14] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/spark/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/spark/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/spark/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Console/Command.php(177): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/spark/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#7 /var/www/html/spark/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/spark/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/spark/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/spark/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
